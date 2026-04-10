@@ -1,0 +1,27 @@
+#name = input("what is your name?: ")
+#age = input("How old are you?: ")
+
+#age = int(age)
+#age = age + 1
+
+#print(f"Hello {name}")
+#print(f"you are {age} years old")
+
+#length = input("\nEnter the length: ")
+#width = input("Enter the width: ")
+#area = float(length) * float(width)
+
+#print(f"\nThe area is: {area}cm\n")
+
+#Shopping Cart Program
+
+item = input(f"\nWhat item do you like to buy?: ")
+price = input(f"What is the price?: ")
+quantity = input(f"How many do you want to buy?: ")
+
+price = float(price)
+quantity = int(quantity)
+total = price * quantity
+
+print(f"\nYou have bought {quantity} x {item}/s")
+print(f"${total}")
