@@ -1,0 +1,8 @@
+import math
+
+#circumferrence = 2 * math.pi * radius
+
+radius = float(input(f"Enter the radius of a circle: "))
+circumferrence = 2 * math.pi * radius
+
+print(f"Circumference of the circle is {round(circumferrence, 2)}cm")
