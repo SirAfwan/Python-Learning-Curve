@@ -1,8 +1,18 @@
 import math
 
-#circumferrence = 2 * math.pi * radius
-
+print(f"\nCalculating the circumference and area of a circle ")
 radius = float(input(f"Enter the radius of a circle: "))
 circumferrence = 2 * math.pi * radius
+area = math.pi * pow(radius, 2)
 
 print(f"Circumference of the circle is {round(circumferrence, 2)}cm")
+print(f"Area of the circle is {round(area,2)}cm^2")
+
+print(f"\nCalculating hyptonuse of a right triangle ")
+a = float(input(f"Enter side a: "))
+b = float(input(f"Enter side b: "))
+hypothenuse = math.sqrt(pow(a, 2) + pow(b, 2))
+print(f"The hypothenuse of the triangle is {round(hypothenuse, 2)}cm")
+
+
+

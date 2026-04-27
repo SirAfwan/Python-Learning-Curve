@@ -1,0 +1,31 @@
+# age = int(input("Enter your age: "))
+
+# if age >= 100:
+#     print(f"You are too old")
+# elif age < 0:
+#     print(f"Invalid age")
+# elif age > 18:
+#     print(f"You are signed up")
+# else:
+#     print(f"You must be 18+ to sign up")
+
+# response = input("Do you like vegetable(Y/N): ")
+
+# if response == "Y":
+#     print(f"Havce some food for you")
+# else:
+#     print(f"Sorry, no food for you")
+
+# name = input("Enter your name: ")
+
+# if name == "":
+#     print(f"PLEASE TYPE UR NAME DUMBASS")
+# else:
+#     print(f"Hello {name}")
+
+for_sale = False
+
+if for_sale:
+    print(f"This item is for sale")
+else:
+    print(f"This item is not for sale")
