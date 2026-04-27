@@ -1,0 +1,4 @@
+temp = float(input("Enter the temperature reading: "))
+unit = input("Enter the unit in Celcius or Fahrenheit (C/F): ")
+
+#if unit == "C":

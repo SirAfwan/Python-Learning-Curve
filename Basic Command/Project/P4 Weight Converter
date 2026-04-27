@@ -1,0 +1,15 @@
+weight = float(input("Enter the weight: "))
+unit = input("kilogram or pound (K/L): ")
+
+if unit == "K":
+    converted_weight = weight * 2.20462
+    unit = "lbs"
+    # print(f"The weight in pounds is {round(converted_weight, 3)}lbs")
+elif unit == "L":
+    converted_weight = weight / 2.20462
+    unit = "kg"
+    # print(f"The weight in kilograms is {round(converted_weight, 3)}kg")
+else:
+    print(f"Invalid unit")
+
+print(f"Your weight is {round(converted_weight, 3)} {unit}")
