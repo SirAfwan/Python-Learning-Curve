@@ -1,0 +1,23 @@
+temp = 22
+is_raining = True
+is_Sunny = False
+
+# if temp > 30 or temp < 0 or is_raining:
+#     print("The outdooe event is cancelled")
+# else:
+#     print("The outdoor event is still scheduled")
+
+if temp >= 28 and is_Sunny:
+    print("It's hot outside")
+    print("It's sunny")
+elif temp <= 0 and is_Sunny:
+    print("It's cold outside")
+    print("It's Sunny")
+elif 28 > temp > 0 and is_Sunny:
+    print("It's warm outside")
+    print("It's Sunny")
+elif temp >= 28 and not is_Sunny:
+    print("It's hot outside")
+    print("Seems cloudy")
+else:
+    print("Seems cloudy")
