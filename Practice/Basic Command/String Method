@@ -1,0 +1,8 @@
+name = input("Enter your name: ")
+# result = len(name)
+# result = name.find("i")
+# result = name.rfind("p")
+# name = name.capitalize()
+# name = name.upper()
+name = name.lower()
+print(name)
