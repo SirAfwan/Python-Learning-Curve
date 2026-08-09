@@ -1,0 +1,18 @@
+#only can use for string
+
+credit_number = "1723-4546-7869-1233"
+# print(credit_number[4])
+# print(credit_number[4:7])
+# print(credit_number[4:])
+# print(credit_number[-1])
+# print(credit_number[::3])
+# last_digit = credit_number[-3:]
+# reverse_digit = credit_number[::-1]
+# print(f"XXXX-XXXX-X{last_digit}")
+# print(reverse_digit)
+
+last_digit = credit_number[0:4]
+print(f"XXXX-XXXX-XXXX-{last_digit}")
+
+reverse_digit = credit_number[::-1]
+print(reverse_digit)

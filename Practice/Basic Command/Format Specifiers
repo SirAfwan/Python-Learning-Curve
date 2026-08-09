@@ -1,0 +1,26 @@
+import time
+
+start_time = time.time()
+# sum = 0
+# for index in range(201):
+#     sum = sum + index
+# print(sum)
+
+sum = (200 / 2) * (200 + 1)
+print(sum)
+
+end_time = time.time()
+
+print(f"time take is {round(end_time - start_time, 5)} seconds\n")
+
+price1 = 3.14159
+price2 = -987.65
+price3 = 12.34
+price4 = 87.345
+price5 = 340089884.908808
+
+print(f"Price 1 is ${price1:10}")
+print(f"Price 2 is ${price2:.3f}")
+print(f"Price 3 is ${price3:+}")
+print(f"Price 4 is ${price4:>10}")
+print(f"Price 5 is ${price5: ,.2f}")
