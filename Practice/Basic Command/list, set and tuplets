@@ -1,0 +1,16 @@
+fruit = ["apple", "banana", "coconut", "orange"]
+
+# print(fruit[::1])
+
+# for x in fruit:
+#     print(x, end = ", ")
+
+# print(dir(fruit))
+# print(help(fruit))
+# print(len(fruit))
+
+# fruit[1] = "grape"
+# fruit.append("grape")
+fruit.remove("apple")
+for x in fruit:
+    print(x, end = ", ")
